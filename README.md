@@ -1,5 +1,10 @@
 # General Information
 Snippets for the SOLID principe's and design patterns implementation in Python
+
+## Structure 
+Each of the design pattern would have his on directory with separate readme of "motivation" when and why to use them.
+All general information will be in this readme.
+
 ## SOLID principe's
 - SRP (single responsibility principle) or SOC (separation of concerns):
      > class should have only one general/primary responsibility. You don't want to overload yours objects with to many responsibility. It's hart to manage in future.
@@ -19,17 +24,14 @@ Snippets for the SOLID principe's and design patterns implementation in Python
 
     >Explicit (Constructor) vs Implicit (DI, etc.).
 
-    >Wholesale (single statement) vs piecewice (step-by-steep).
-* Strucural Patterns 
+    >Wholesale (single statement) vs piecewise (step-by-steep).
+* Structural Patterns 
     > Concerned with the structure.
 
-    > Many patterns are wrapers that mimic the underlying class' interface.
+    > Many patterns are wrappers that mimic the underlying class' interface.
     
     > Stress the importance of good API design.
 
 *  Behavioral Patterns
 
     > They are all different, no central theme.
-
-## Structure 
-Each of the design pattern would have his on directory with separate readme of "motivation" when and why to use them.
