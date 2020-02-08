@@ -12,3 +12,24 @@ Snippets for the SOLID principe's and design patterns implementation in Python
     >Do not overload your interface with methods because it may end up with definition of unused/unsupported methods for derived classes. 
 - DIP (dependency inversion principle)
     > High level classes/modules should not depend directly on low level classes/modules instead they should depend on the abstraction. It's make your code more sustainable.
+
+## The Gamma Categorization 
+* Creation Patterns
+    >Deal with creation of objects.
+
+    >Explicit (Constructor) vs Implicit (DI, etc.).
+
+    >Wholesale (single statement) vs piecewice (step-by-steep).
+* Strucural Patterns 
+    > Concerned with the structure.
+
+    > Many patterns are wrapers that mimic the underlying class' interface.
+    
+    > Stress the importance of good API design.
+
+*  Behavioral Patterns
+
+    > They are all different, no central theme.
+
+## Structure 
+Each of the design pattern would have his on directory with separate readme of "motivation" when and why to use them.
